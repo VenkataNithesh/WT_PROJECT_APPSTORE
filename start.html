@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <style>
+        body{
+            background-color: #333333;
+        }
+        #s2{
+            width:30%; 
+            margin: 0 auto; 
+            border:2px solid white; 
+            padding:10px;
+            border-radius: 10px;
+            margin-top: 50px;
+           background-color: bisque;
+        }
+        #s8{
+            margin-left: 5px;
+            margin-top: 20px;
+        padding: 5px;
+        width: 5.5cm;
+        height: 1.5cm;
+        border-radius: 5px;
+        background-color:#4899df;
+        color: white;
+        cursor: pointer;
+        font-size: large;
+        }
+        #s9{
+            margin-left: 10px;
+            margin-top: 20px;
+            padding: 5px;
+            font-size: large;
+            width: 5.5cm;
+            height: 1.5cm;
+            border-radius: 5px;
+            background-color:#4899df;
+            color: white;
+            cursor: pointer;
+        }
+        b{
+            font-size: 40px;
+            border-left: 100px;
+            margin-left: 110px;
+        }
+        #s1{
+            margin-top: 50px;
+            text-align: left;
+            font-size: large;
+            font-style: oblique;
+            background-color: silver;
+            height: 3.5cm;
+        }
+        #s3{
+            font-size:20px;
+           margin-left: 5px;
+        }
+        #s1{
+            float: left;
+            width: 50%;
+            padding: 5px;
+        }
+        #s3{
+            height: 400px;
+            width: 100%;
+        }
+        img{
+            padding: 2px;
+        }
+        #s5{
+           margin-left: 75px;
+        }
+    </style>
+    
+</head>
+<body>
+    <div id="s2">
+        <img src="logo.png" alt="" height="300px" width="300px" id="s5">
+         <b>Get Started</b><br>
+        <button type="button" id="s8" onclick="call1()">Log In</button>
+        <button type="button" id="s9" onclick="call2()">Sign Up</button>
+    </div>
+    <div id="s3">
+    <div id="s1">
+            <h2>Contact Us</h2>
+            <span class="glyphicon glyphicon-earphone"><span id="s3">Phone:9999999999</span></span><br>
+            <span class="glyphicon glyphicon-envelope"><span id="s3">Email:manit@gmail.com</span></span><br>
+    </div>
+    <div id="s1">
+            <h2>Follow Us On</h2>
+            <img src="facebook.svg" alt="" height="30px" width="30px">
+            <img src="instagram.svg" alt="" height="30px" width="30px">
+            <img src="twitter.svg" alt="" height="30px" width="30px">
+            <img src="linkedin.svg" alt="" height="30px" width="30px">
+    </div>
+    </div>
+    <script>
+        function call1(){
+            window.location.href="prologin.html";
+        }
+        function call2(){
+            window.location.href="prosignup.html";
+        }
+    </script>
+</body>
+</html>

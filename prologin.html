@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Login Form</title>
+    <style>
+        body{
+            background-color: lightgrey;
+        }
+        fieldset{
+            width:25%; 
+            margin: 0 auto; 
+            border:2px solid black; 
+            padding:10px;
+            border-radius: 10px;
+            margin-top: 150px;
+            color: whitesmoke;
+            background-color: black;
+        }
+        #s1{
+            padding: 10px;
+            margin-left: 1.5cm;
+            width: 7cm;
+            border-top: 0;
+            border-left: 0;
+            border-right: 0;
+            margin-top: 30px;
+        }
+        #s2{
+            padding: 10px;
+            margin-left: 1.5cm;
+            margin-top: 30px;
+            width: 7cm;
+            border-top: 0;
+            border-left: 0;
+            border-right: 0;
+        }
+        #s3{
+            margin-left: 1.5cm;
+            margin-top: 35px;
+            width: 7.5cm;
+            height: 1cm;
+            background-color: #38c776;
+        }
+        footer{
+            text-align: center;
+            margin-top: 80px;
+            color: red;
+        }
+        footer a{
+            color: whitesmoke;
+        }
+    </style>
+    
+</head>
+<body>
+    <div class="container">
+        <fieldset>
+            <h2 align="center">Login</h2><hr>
+            <form>
+                <div class="input-group">
+                    <span class="input-group-addon">
+                    <i class="glyphicon glyphicon-user"></i></span>
+                <input
+                type="text"
+                placeholder="Username"
+                autocomplete="off"
+                id="s1"
+              /> </div><br>
+              <input
+            type="password"
+            placeholder="Password"
+            autocomplete="off"
+            id="s2";
+          /> <br>
+            <input type="button" value="Login" id="s3" onclick="call1()">
+            <footer>Don't have an account? <a href="prosignup.html">Sign Up</a></footer>
+        </form>
+        </fieldset>
+    </div>
+    <script>
+        function call1(){
+            window.location.href="prohomepage1.html";
+        }
+    </script>
+</body>
+</html>

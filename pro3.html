@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gaming apps</title>
+    <style>
+   
+    #s1 h1{
+        font-size: 50px;
+    }
+    #s1 h2{
+        font-size: 30px;
+    }
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #333333;
+      
+
+    }
+    
+    #s1{
+        background-color: lightgray;
+        color: white;
+        text-align: center;
+        height: 3.5cm;
+        width: 100%;
+    }
+    
+    .app-list {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        padding: 20px;
+        background-color: #333333;
+    }
+    
+    .app {
+        
+        background-color: white;
+        border: 1px solid #ccc;
+        padding: 20px;
+        margin-left: 80px;
+        margin-top: 20px;
+        text-align: center;
+        margin-right: 0px;
+        border-spacing: 10px;
+        border-radius: 10px;
+        height: 8cm;
+        width:8cm ;
+    }
+    .app:hover{
+        transform: scale(1.1);
+    }
+    .app img {
+        height: 100px;
+        width: 100px;
+    }
+    
+    footer {
+        background-color: #333;
+        color: white;
+        text-align: center;
+        padding: 10px 0;
+    }
+    #s4{
+        width: fit-content;
+        margin-left: 50px;
+        margin-top: 10px;
+    }
+    #s3{
+        float: left;
+        border-right: 2px ridge black;
+        width: 45%;
+    }
+    #s5{
+        float: left;
+        width: 45%;
+    }
+    #s9{
+        margin-top: 20px;
+        padding: 5px;
+        width: 5cm;
+        border-radius: 5px;
+        background-color:#4899df;
+        color: white;
+        cursor: pointer;
+    }
+    #s1 img{
+        float: left;
+        height: 3cm;
+        width: 3cm;
+        margin-left: 7px;
+        margin-top: 7px;
+        margin-bottom: 5px;
+    }
+    .s7{
+        text-align: center;
+        color:black;
+        background-color: lightgray;
+        margin-top: 1cm;  
+    }
+    #j1{
+        font-size: 50px;
+        color: navy;
+    }
+    #j2{
+        font-size: 35px;
+    }
+    .s7 img{
+        float: left;
+        height: 2.5cm;
+        width: 2.5cm;
+        margin-left: 3px;
+        margin-top: 1.5px;
+        margin-bottom: 5px;
+    }
+</style>
+    <title>App Store</title>
+</head>
+<body>
+    <div style="background-color: #333333;">
+    <div class="s7">
+        <img src="logo.png" alt="">
+        <p><span id="j1"><i>ma</i><b>N</b><i>it</i></span><br>
+        <span id="j2">Games</span></p>
+    </div>
+
+    <section class="app-list">
+        <article class="app">
+            <img src="candy.jpeg" alt="App 1">
+            <h2>Candy Crush Saga</h2>
+            <p><b>King</b><br>
+                In-app purchases <br>
+                </p>
+                <div id="s4">
+                    <div id="s3">
+                         <b>4.4*</b><br>
+                        3Cr reviews
+                    </div>
+                    <div id="s5">
+                        100Cr+ Downloads
+                    </div>
+                </div>
+            <button type="button" id="s9" onclick="call1()">Download</button>
+            
+        </article>
+        <article class="app">
+            <img src="spider.png" alt="App 1">
+            <h2>Spider Solitaire</h2>
+            <p><b>Big Cat Studio</b><br>
+                In-app purchases <br>
+                </p>
+                <div id="s4">
+                    <div id="s3">
+                         <b>3.9*</b><br>
+                        2T reviews
+                    </div>
+                    <div id="s5">
+                        10L+ Downloads
+                    </div>
+                </div>
+            <button type="button" id="s9" onclick="call2()">Download</button>
+        </article>
+        <article class="app">
+            <img src="shadow.jpeg" alt="App 1">
+            <h2>Shadow of Death</h2>
+            <p><b>Bravestars Games</b><br>
+                In-app purchases <br>
+                </p>
+                <div id="s4">
+                    <div id="s3">
+                         <b>4.4*</b><br>
+                        4L reviews
+                    </div>
+                    <div id="s5">
+                        1Cr+ Downloads
+                    </div>
+                </div>
+            <button type="button" id="s9" onclick="call3()">Download</button>
+        </article>
+        <article class="app">
+            <img src="asphalt.png" alt="App 1">
+            <h2>Asphalt 8-Car Racing</h2>
+            <p><b>Gameloft SE</b><br>
+                In-app purchases <br>
+                </p>
+                <div id="s4">
+                    <div id="s3">
+                         <b>4.3*</b><br>
+                        95L reviews
+                    </div>
+                    <div id="s5">
+                        10Cr+ Downloads
+                    </div>
+                </div>
+            <button type="button" id="s9" onclick="call4()">Download</button>
+        </article>
+        <article class="app">
+            <img src="mini.jpeg" alt="App 1">
+            <h2>Mini Militia-War.io</h2>
+            <p><b>Miniclip.com</b><br>
+                In-app purchases <br>
+                </p>
+                <div id="s4">
+                    <div id="s3">
+                         <b>4.1*</b><br>
+                        35l reviews
+                    </div>
+                    <div id="s5">
+                        10Cr+ Downloads
+                    </div>
+                </div>
+            <button type="button" id="s9" onclick="call5()">Download</button>
+        </article>
+        <article class="app">
+            <img src="as9.webp" alt="App 1">
+            <h2>Asphalt 9:Legends</h2>
+            <p><b>Gameloft SE</b><br>
+                In-app purchases <br>
+                </p>
+                <div id="s4">
+                    <div id="s3">
+                         <b>4.5*</b><br>
+                        2.71M reviews
+                    </div>
+                    <div id="s5">
+                        10Cr+ Downloads
+                    </div>
+                </div>
+            <button type="button" id="s9" onclick="call6()">Download</button>
+        </article>
+       
+</section>
+
+    <footer>
+        
+        
+        <p>&copy; 2023 App Store</p>
+    </footer>
+</div>
+    <script>
+        function call1(){
+            window.location.href="https://play.google.com/store/apps/details?id=com.king.candycrushsaga&pcampaignid=web_share";
+        }
+        function call2(){
+            window.location.href="https://play.google.com/store/apps/details?id=solitaire.solitairemaker.solitaire.klondike.card.spider&pcampaignid=web_share";
+        }
+        function call3(){
+            window.location.href="https://play.google.com/store/apps/details?id=com.Zonmob.ShadowofDeath.FightingGames&pcampaignid=web_share";
+        }
+        function call4(){
+            window.location.href="https://play.google.com/store/apps/details?id=com.gameloft.android.ANMP.GloftA8HM&pcampaignid=web_share";
+        }
+        function call5(){
+            window.location.href="https://play.google.com/store/apps/details?id=com.appsomniacs.da2&pcampaignid=web_share";
+        }
+        function call6(){
+            window.location.href="https://play.google.com/store/apps/details?id=com.gameloft.android.ANMP.GloftA9HM&pcampaignid=web_share";
+        }
+    </script>
+</body>
+</html>

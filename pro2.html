@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Education apps</title>
+    <style>
+    body, h1, h2, p, ul {
+        margin: 0;
+        padding: 0;
+    }
+    
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #333333;
+    }
+    
+    header {
+        background-color: #c18319;
+        color: white;
+        text-align: center;
+        padding: 20px 0;
+    }
+    
+    .app-list {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        padding: 20px;
+    }
+    
+    .app {
+        
+        background-color: white;
+        border: 1px solid #ccc;
+        padding: 20px;
+        margin-left: 80px;
+        margin-top: 20px;
+        text-align: center;
+        margin-right: 0px;
+        border-spacing: 10px;
+        border-radius: 10px;
+        height: 8cm;
+        width:8cm ;
+    }
+    .app:hover{
+        transform: scale(1.1);
+    }
+    .app img {
+        height: 100px;
+        width: 100px;
+    }
+    
+    footer {
+        background-color: #333;
+        color: white;
+        text-align: center;
+        padding: 10px 0;
+    }
+    #s4{
+        width: fit-content;
+        margin-left: 50px;
+        margin-top: 10px;
+    }
+    #s3{
+        float: left;
+        border-right: 2px ridge black;
+        width: 45%;
+    }
+    #s5{
+        float: left;
+        width: 45%;
+    }
+    #s9{
+        margin-top: 20px;
+        padding: 5px;
+        width: 5cm;
+        border-radius: 5px;
+        background-color:#4899df;
+        color: white;
+        cursor: pointer;
+    }
+    .s7{
+        text-align: center;
+        color:black;
+        background-color: lightgray;
+        margin-top: 1cm;  
+    }
+    #j1{
+        font-size: 50px;
+        color: navy;
+    }
+    #j2{
+        font-size: 35px;
+    }
+    .s7 img{
+        float: left;
+        height: 2.5cm;
+        width: 2.5cm;
+        margin-left: 3px;
+        margin-top: 1.5px;
+        margin-bottom: 5px;
+    }
+</style>
+    <title>App Store</title>
+</head>
+<body>
+    <div style="background-color: #333333;">
+        <div class="s7">
+            <img src="logo.png" alt="">
+            <p><span id="j1"><i>ma</i><b>N</b><i>it</i></span><br>
+            <span id="j2">Edu</span></p>
+        </div>
+
+    <section class="app-list">
+        <article class="app">
+            <img src="byjus.png" alt="App 1">
+            <h2>BYJU'S Learning</h2>
+            <p><b>BYJU'S</b><br>
+                In-app purchases <br>
+                </p>
+                <div id="s4">
+                    <div id="s3">
+                         <b>4.1*</b><br>
+                        17L reviews
+                    </div>
+                    <div id="s5">
+                        10Cr+ Downloads
+                    </div>
+                </div>
+            <button type="button" id="s9" onclick="call1()">Download</button>
+            
+        </article>
+        <article class="app">
+            <img src="python.png" alt="App 1">
+            <h2>Learn Python</h2>
+            <p><b>Coding and Programming</b><br>
+                In-app purchases <br>
+                </p>
+                <div id="s4">
+                    <div id="s3">
+                         <b>4.7*</b><br>
+                        39T reviews
+                    </div>
+                    <div id="s5">
+                        100L+ Downloads
+                    </div>
+                </div>
+            <button type="button" id="s9" onclick="call2()">Download</button>
+        </article>
+        <article class="app">
+            <img src="js.png" alt="App 1">
+            <h2>Learn Javascript</h2>
+            <p><b>Coding and Programming</b><br>
+                In-app purchases <br>
+                </p>
+                <div id="s4">
+                    <div id="s3">
+                         <b>4.5*</b><br>
+                        5T reviews
+                    </div>
+                    <div id="s5">
+                        1L+ Downloads
+                    </div>
+                </div>
+            <button type="button" id="s9" onclick="call3()">Download</button>
+        </article>
+        <article class="app">
+            <img src="c++.png" alt="App 1">
+            <h2>Learn C++</h2>
+            <p><b>Coding and Programming</b><br>
+                In-app purchases <br>
+                </p>
+                <div id="s4">
+                    <div id="s3">
+                         <b>4.5*</b><br>
+                        29T reviews
+                    </div>
+                    <div id="s5">
+                        10L+ Downloads
+                    </div>
+                </div>
+            <button type="button" id="s9" onclick="call4()">Download</button>
+        </article>
+        <article class="app">
+            <img src="java.png" alt="App 1">
+            <h2>Learn Java</h2>
+            <p><b>Online java Programming</b><br>
+                In-app purchases <br>
+                </p>
+                <div id="s4">
+                    <div id="s3">
+                         <b>4.7*</b><br>
+                        826 reviews
+                    </div>
+                    <div id="s5">
+                        50T+ Downloads
+                    </div>
+                </div>
+            <button type="button" id="s9" onclick="call5()">Download</button>
+        </article>
+        <article class="app">
+            <img src="udemy.jpg" alt="App 1">
+            <h2>Udemy-Online Courses</h2>
+            <p><b>Udemy</b><br>
+                In-app purchases <br>
+                </p>
+                <div id="s4">
+                    <div id="s3">
+                         <b>4.3*</b><br>
+                        4L reviews
+                    </div>
+                    <div id="s5">
+                        1Cr+ Downloads
+                    </div>
+                </div>
+            <button type="button" id="s9" onclick="call6()">Download</button>
+        </article>
+       
+</section>
+
+    <footer>
+        
+        
+        <p>&copy; 2023 App Store</p>
+    </footer>
+</div>
+    <script>
+        function call1(){
+            window.location.href="https://play.google.com/store/apps/details?id=com.byjus.thelearningapp&pcampaignid=web_share";
+        }
+        function call2(){
+            window.location.href="https://play.google.com/store/apps/details?id=python.programming.coding.python3.development&pcampaignid=web_share";
+        }
+        function call3(){
+            window.location.href="https://play.google.com/store/apps/details?id=js.javascript.web.coding.programming.learn.development&pcampaignid=web_share";
+        }
+        function call4(){
+            window.location.href="https://play.google.com/store/apps/details?id=cpp.programming&pcampaignid=web_share";
+        }
+        function call5(){
+            window.location.href="https://play.google.com/store/apps/details?id=ab.java.programming&pcampaignid=web_share";
+        }
+        function call6(){
+            window.location.href="https://play.google.com/store/apps/details?id=com.udemy.android&pcampaignid=web_share";
+        }
+    </script>
+</body>
+</html>
